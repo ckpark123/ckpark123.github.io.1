@@ -1,0 +1,141 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body 
+{
+	color: green;
+	width:100%;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	color: blue;	
+	}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: underline;
+	margin: 0 auto;
+	color: red;	
+	}
+
+div.contentarea 
+	{
+	text-align: center;
+	}
+
+p
+	{
+	margin bottom: 12px;
+	}
+img
+	{
+	width:750px;
+	height:350px;
+	}
+/*ul
+	{
+	list-style: numeric;
+	margin-left: 30px;
+	}
+li
+	{
+	padding-left: 10px;
+	}
+*/
+
+/*# is for id and div. is for class*/
+#maincontent
+	{
+	color: orange;
+	margin-top: 15px;
+	}
+#bodywrapper
+	{	
+	width:1000px;
+	margin: 0 auto;
+	}
+#navigation
+	{
+	float:right;
+	margin-top: 7px;
+	}
+#navigation li 
+	{
+	display:inline-block;
+	margin:0 6px;
+	}
+#header
+	{
+	height:30px;
+	border-bottom:1px solid green;
+	}
+#footer
+	{
+	color: silver;
+	text-align: center;
+	border-top:1px solid green;
+	margin-top: 12px;
+	padding-top: 12px;
+	}
+#footer li
+	{
+	color:blue;
+	display:inline-block;
+	margin: 6 10px;
+	border:1px solid red;
+	}
+}
+/* w3school*/
+/* HTML tutorials; and play around with it*/
+/* media query*/
